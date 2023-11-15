@@ -20,4 +20,4 @@ for num in temp_new:
     if isinstance(num , float):
         total += num
         temp_count += 1
-print(f"平均気温は{total / temp_count}")
+print(f"平均気温は{total / temp_count:.2f}")

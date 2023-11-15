@@ -7,7 +7,7 @@ while total <= 1000:
         numbers.append(total)
 print(numbers)
 ratius = []
-for num in range(len(numbers)-2):
+for num in range(len(numbers)-1):
     sum1 = numbers[num + 1] / numbers[num]
     sum2 = int(sum1 * 1000)
     ans = sum2/1000

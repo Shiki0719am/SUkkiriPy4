@@ -1,8 +1,8 @@
 for y in range(9):
     for x in range(9):
         anser = (y+1) * (x+1)
-        print(f"{anser},",end="")
-    print("\n")
+        print(f"{anser},",end=" ")
+    print()
 
 for y in range(9):
     for x in range(9):
